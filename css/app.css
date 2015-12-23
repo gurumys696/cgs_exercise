@@ -1,0 +1,127 @@
+/* min-width 1025px, large screens */
+@media only screen {
+  /* line 3, ../scss/_common.scss */
+  header {
+    box-shadow: 0 0 3px #d7d7d7;
+  }
+  /* line 6, ../scss/_common.scss */
+  header .user-logout ul {
+    margin: 0;
+    padding-top: 25px;
+  }
+  /* line 9, ../scss/_common.scss */
+  header .user-logout ul li {
+    font-size: 16px;
+    color: #000;
+  }
+  /* line 12, ../scss/_common.scss */
+  header .user-logout ul li a {
+    color: #000;
+  }
+  /* line 14, ../scss/_common.scss */
+  header .user-logout ul li a:hover {
+    text-decoration: none;
+  }
+
+  /* line 23, ../scss/_common.scss */
+  .forgotPassword, .user-reg-form, .login-form, .reset-password {
+    padding-bottom: 50px;
+    margin: 55px auto 0;
+    display: block;
+    float: none;
+  }
+  /* line 28, ../scss/_common.scss */
+  .forgotPassword .form-wrapper, .user-reg-form .form-wrapper, .login-form .form-wrapper, .reset-password .form-wrapper {
+    padding: 20px 40px;
+    box-shadow: 0 0 2px 1px #d7d7d7;
+  }
+  /* line 31, ../scss/_common.scss */
+  .forgotPassword .form-wrapper h3, .user-reg-form .form-wrapper h3, .login-form .form-wrapper h3, .reset-password .form-wrapper h3 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  /* line 35, ../scss/_common.scss */
+  .forgotPassword .form-wrapper label, .user-reg-form .form-wrapper label, .login-form .form-wrapper label, .reset-password .form-wrapper label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  /* line 40, ../scss/_common.scss */
+  .forgotPassword .form-wrapper input, .user-reg-form .form-wrapper input, .login-form .form-wrapper input, .reset-password .form-wrapper input {
+    border: 1px solid #d7d7d7;
+    height: 45px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  /* line 49, ../scss/_common.scss */
+  .forgotPassword .form-wrapper .submit, .user-reg-form .form-wrapper .submit, .login-form .form-wrapper .submit, .reset-password .form-wrapper .submit {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 52, ../scss/_common.scss */
+  .forgotPassword .form-wrapper .submit input, .user-reg-form .form-wrapper .submit input, .login-form .form-wrapper .submit input, .reset-password .form-wrapper .submit input {
+    margin: 0 auto;
+    width: 200px;
+    background-color: #75C999;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+  }
+  /* line 61, ../scss/_common.scss */
+  .forgotPassword .form-wrapper .submit input:hover, .user-reg-form .form-wrapper .submit input:hover, .login-form .form-wrapper .submit input:hover, .reset-password .form-wrapper .submit input:hover {
+    background-color: #5ACA8A;
+  }
+
+  /* line 72, ../scss/_common.scss */
+  .login-form .forgot-remember ul .forgot {
+    float: right;
+  }
+  /* line 74, ../scss/_common.scss */
+  .login-form .forgot-remember ul .forgot a {
+    color: #5ACA8A;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  /* line 79, ../scss/_common.scss */
+  .login-form .forgot-remember ul .forgot a:hover {
+    text-decoration: none;
+  }
+  /* line 85, ../scss/_common.scss */
+  .login-form .forgot-remember label {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  /* line 89, ../scss/_common.scss */
+  .login-form .forgot-remember input[type=checkbox] {
+    width: 14px;
+    float: left;
+    height: auto;
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  /* line 100, ../scss/_common.scss */
+  .already-account {
+    margin-top: 20px;
+  }
+  /* line 102, ../scss/_common.scss */
+  .already-account p {
+    font-size: 14px;
+  }
+  /* line 105, ../scss/_common.scss */
+  .already-account a {
+    display: block;
+    color: #5ACA8A;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */

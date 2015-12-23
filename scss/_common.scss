@@ -1,0 +1,113 @@
+@media only screen {
+
+header{
+  box-shadow: 0 0 3px #d7d7d7;
+  .user-logout{
+    ul{
+      margin: 0;
+      padding-top: 25px;
+      li{
+        font-size: 16px;
+        color:#000;
+        a{
+          color:#000;
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+  .forgotPassword , .user-reg-form , .login-form , .reset-password{
+    padding-bottom: 50px;
+    margin: 55px auto 0;
+    display: block;
+    float: none;
+    .form-wrapper {
+      padding: 20px 40px;
+      box-shadow: 0 0 2px 1px #d7d7d7;
+      h3 {
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      label {
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 20px;
+      }
+      input {
+        border: 1px solid #d7d7d7;
+        height: 45px;
+        border-radius: 4px;
+        width: 100%;
+        padding: 0 10px;
+        font-size: 13px;
+        margin-bottom: 20px;
+      }
+      .submit {
+        margin: 0 auto;
+        text-align: center;
+        input {
+          margin: 0 auto;
+          width: 200px;
+          background-color: #75C999;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border-radius: 4px;
+          border: none;
+          &:hover {
+            background-color: #5ACA8A;
+          }
+        }
+      }
+
+    }
+  }
+  .login-form{
+    .forgot-remember{
+      ul{
+        .forgot{
+          float: right;
+          a{
+            color:#5ACA8A;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 600;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      label{
+        font-size: 14px;
+        cursor: pointer;
+      }
+      input[type=checkbox]{
+        width: 14px;
+        float: left;
+        height: auto;
+        margin-right: 5px;
+        position: relative;
+        bottom: 2px;
+
+      }
+    }
+  }
+  .already-account{
+    margin-top: 20px;
+    p{
+      font-size: 14px;
+       }
+    a{
+      display: block;
+      color:#5ACA8A;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+
